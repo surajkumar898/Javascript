@@ -1,0 +1,14 @@
+let x=10;
+let y=20;
+function details() {
+console.log("I am Brazilian");
+return 1000;
+}
+let s= details();
+console.log(s) 
+function result(a,b,c){
+    let total= a*b;
+    console.log(total);
+}
+result(x,y,result);
+Higher function is the function take the another function as argument.
